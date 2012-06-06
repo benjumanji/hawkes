@@ -18,5 +18,8 @@ executable hawkes-generate
   main-is:             HawkesGen.hs
   hs-source-dirs:      src
   build-depends:       base ==4.5.*,
-                       vector,
-                       mersenne-random
+                       double-conversion,
+                       mersenne-random,
+                       text,
+                       vector
+
